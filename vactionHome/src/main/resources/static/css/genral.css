@@ -1,0 +1,28 @@
+   .body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .header {
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      background-color: #f4f4f4;
+    }
+    .spacer {
+      flex: 1;
+    }
+    .footer {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: #eaeaea;
+    }
+    .button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
